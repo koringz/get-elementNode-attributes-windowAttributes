@@ -1,5 +1,5 @@
 /****** 调用方法 *******/
-function getElement(attr_name, element) {
+function getElementNode(attr_name, element) {
 	if (!element) {
 		element = document
 	}
@@ -19,5 +19,5 @@ function getElement(attr_name, element) {
 };
 /****** 调用方法 *******/
 
-// getElement(class_name[i]) 等同于 document.getElementsByClassName(class_name[i])
+// getElementNode(class_name[i]) 等同于 document.getElementsByClassName(class_name[i])
 // 比如你的类名：class_name = ['class01','class02','class03']
